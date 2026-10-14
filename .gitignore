@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Model weights (download / train separately; see backend/app/models/README.md)
+backend/app/models/*.task
+backend/app/models/*.pt
+backend/app/models/*.onnx
+
+# Workspace / data (never commit videos or job artifacts)
+data/workspace/
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# SQLite
+*.sqlite3
+*.db
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
